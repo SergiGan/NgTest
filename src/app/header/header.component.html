@@ -1,0 +1,24 @@
+
+<nav class="navbar sticky-top navbar-light" style="background-color: #e3f2fd;"><strong >View mode:</strong>
+    <div class="btn-group">
+      <button  type="button" class="btn btn-outline-info" (click)="changeStyle('list')"><i class="glyphicon glyphicon-th-list"></i>List</button>
+      <button type="button" class="btn btn-outline-info" (click)="changeStyle('group')"><i class="glyphicon glyphicon-th"></i>Group</button>
+    </div>
+      <button type="button" class="btn btn-outline-secondary" ><span class="glyphicon glyphicon-trash"><p>{{basketButton.length}}</p></span> </button>
+                  
+    <div>
+      <ul>
+        <ol class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+            <p><i class="glyphicon glyphicon-trash"></i>{{product.id}}</p></a>
+           
+          <div class="dropdown-menu">
+            <a class="dropdown-item" href="#">{{product.id}}</a>
+          </div>
+        </ol>
+      </ul>
+    </div>
+</nav>
+  <p>
+ <!-- header works!-->
+</p>

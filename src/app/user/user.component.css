@@ -1,0 +1,28 @@
+
+
+.card{
+	/*display: block;*/
+	width: 20rem;
+	border : lightblue solid 2px;
+	margin : 5px auto;
+	background-color : lightgrey;
+	box-shadow : 0 0 30px grey;
+	border-radius : 2px;
+	background : linear-gradient(to left, #ffcc99 0%, #d3d3d3 100%);
+}
+.row{
+	/*display: none;*/
+	border : lightblue solid 2px;
+	margin : 6px auto;
+	background-color : lightgrey;
+	box-shadow : 0 0 30px grey;
+	border-radius : 2px;
+	background : linear-gradient(to left, #ffcc99 0%, #d3d3d3 100%);
+}
+.text-muted{
+	font-size: 18px;
+	font-weight: bold;
+}
+.card-text{
+	margin-top: 5px;
+}

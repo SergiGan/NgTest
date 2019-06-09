@@ -1,0 +1,28 @@
+
+<div *ngIf="style=='group'" class="card ">
+  <img src='{{product.image}}' class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">{{ product.name }}</h5>
+    <p class="card-text">{{ product.describe }}</p>    
+    <button (click)="addToBasket()" class="btn btn-outline-info">Add to Card</button>
+   
+    <div class="card-footer">
+      <small class="text-muted">{{product.price}} per one</small>
+    </div>
+  </div>
+</div>
+
+<div *ngIf="style=='list'" class="row border-warning">
+    <div class="col-md-6 col-sm-6  col-lg-4">
+      <img src='{{product.image}}' class="card-img" alt="..." style="height: 220px;"/>
+    </div>
+    <div class="col-md-6 col-sm-6 col-lg-8">
+      <div class="card-body">
+        <h5 class="card-title">{{ product.name }}</h5>
+        <p class="card-text">{{ product.describe }}</p>
+       
+		  <button (click)="addToBasket()" class="btn btn-outline-info">Add to Card</button>
+        	<p class="card-text"><small class="text-muted">{{product.price}} per unit (or)  {{product.doIt}}</small></p>
+      </div>
+    </div>
+  </div>
