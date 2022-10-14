@@ -28,7 +28,7 @@ products = [{
     price: '400$'
   }, {
     id:2,
-    image: 'https://unsplash.com/t/food-drink/',
+    image: 'https://baconmockup.com/300/200',
     name: 'food',
     describe: 'This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.',
     price: '450$'
